@@ -329,10 +329,10 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
-  background: url("../img/trynd.jpg") center center; /*13*/
-  background-size: cover;
-  padding: 0 15px;
+  height: 40vh;
+  background: url("../img/HollowTotoro.png") top center; /*13*/
+  background-size: contain;
+  padding: 0 0px;
 }
 
 #hero h1 {
@@ -340,22 +340,28 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #E2DFD2;
 }
 
 #hero h2 {
-  color: #fefefe;
+  color: #E2DFD2;
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 #hero .btn-get-started {
   font-size: 64px;
   transition: 0.5s;
-  color: #fff;
+  color: #E2DFD2;
   height: 60px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 #hero .btn-get-started:hover {
@@ -532,8 +538,8 @@ section {
 }
 
 .about .image {
-  background: url("../img/PassportPhoto.jpg") center center no-repeat;
-  background-size: contain;
+  background: url("../img/WeddingPhoto.png") center center no-repeat;
+  background-size: cover;
   min-height: 400px;
 }
 
