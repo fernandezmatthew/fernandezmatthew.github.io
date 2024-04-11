@@ -328,10 +328,11 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: auto;
   height: 40vh;
   background: url("../img/HollowTotoro.png") top center; /*13*/
-  background-size: contain;
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
   padding: 0 0px;
 }
 
